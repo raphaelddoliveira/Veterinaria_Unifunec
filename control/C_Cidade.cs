@@ -169,7 +169,7 @@ namespace Veterinaria.control
 
             //Finaliza a Conexão
             conn.Close();
-            return dt_cidades;
+            return dt_cidade;
         }
 
         String sqlInsere = "INSERT INTO cidade(nomecidade) VALUES (@pnome)";
