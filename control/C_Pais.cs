@@ -19,6 +19,8 @@ namespace Veterinaria.control
         DataTable dt_pais;
         SqlDataAdapter da_pais;
 
+        int teste;
+
         public List<Pais> DadosPais()
         {
             //Cria uma Lista do tipo Pais - Array
