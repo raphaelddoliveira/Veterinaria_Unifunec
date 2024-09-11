@@ -93,6 +93,12 @@
     <Compile Include="view\FrmRaca.Designer.cs">
       <DependentUpon>FrmRaca.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\FrmSexo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmSexo.Designer.cs">
+      <DependentUpon>FrmSexo.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\FrmTipoanimal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </Compile>
     <EmbeddedResource Include="view\FrmRaca.resx">
       <DependentUpon>FrmRaca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmSexo.resx">
+      <DependentUpon>FrmSexo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\FrmTipoanimal.resx">
       <DependentUpon>FrmTipoanimal.cs</DependentUpon>

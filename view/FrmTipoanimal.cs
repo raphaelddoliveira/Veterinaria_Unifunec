@@ -70,6 +70,7 @@ namespace Veterinaria.view
             dt = cr.Buscar_Todos();
             Tabela_tipoanimal = dt;
             dataGridView1.DataSource = Tabela_tipoanimal;
+            lista_tipoanimal = carregaListaTipoanimal();
 
         }
 
@@ -141,6 +142,7 @@ namespace Veterinaria.view
 
 
             CarregaTabela();
+            lista_tipoanimal = carregaListaTipoanimal();
 
             desativaCampos();
 
@@ -174,6 +176,7 @@ namespace Veterinaria.view
                 int valor = Int32.Parse(txtCodigo.Text);
                 tipoAnimal.Apaga_Dados(valor);
                 CarregaTabela();
+                lista_tipoanimal = carregaListaTipoanimal();
             }
         }
 
@@ -247,6 +250,7 @@ namespace Veterinaria.view
                 posicao = 0;
                 atualizaCampos();
                 dataGridView1.Rows[posicao].Selected = true;
+                lista_tipoanimal = carregaListaTipoanimal();
             }
 
         }
