@@ -12,7 +12,7 @@ namespace Veterinaria.conection
     {
         //Declaração de Atribututos
         SqlConnection conn;
-        String strConnection = @"Server=DESKTOP-A0RSP3V\SQLEXPRESS;Database=Veterinaria_Unifunec;
+        String strConnection = @"Server=localhost\SQLEXPRESS;Database=Veterinaria_Unifunec;
                         Trusted_Connection=True";
 
 
