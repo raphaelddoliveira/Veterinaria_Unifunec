@@ -31,5 +31,11 @@ namespace Veterinaria
             FrmTipoanimal frmTipoanimal = new FrmTipoanimal();
             frmTipoanimal.ShowDialog();
         }
+
+        private void sexoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSexo frmSexo = new FrmSexo();
+            frmSexo.ShowDialog();
+        }
     }
 }

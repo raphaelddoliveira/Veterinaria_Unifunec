@@ -33,6 +33,7 @@
             this.raçaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.endereçoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoAnimalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sexoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,8 @@
             // 
             this.animalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.raçaToolStripMenuItem,
-            this.tipoAnimalToolStripMenuItem});
+            this.tipoAnimalToolStripMenuItem,
+            this.sexoToolStripMenuItem});
             this.animalToolStripMenuItem.Name = "animalToolStripMenuItem";
             this.animalToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
             this.animalToolStripMenuItem.Text = "Animal";
@@ -76,6 +78,13 @@
             this.tipoAnimalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tipoAnimalToolStripMenuItem.Text = "Tipo Animal";
             this.tipoAnimalToolStripMenuItem.Click += new System.EventHandler(this.tipoAnimalToolStripMenuItem_Click);
+            // 
+            // sexoToolStripMenuItem
+            // 
+            this.sexoToolStripMenuItem.Name = "sexoToolStripMenuItem";
+            this.sexoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sexoToolStripMenuItem.Text = "Sexo";
+            this.sexoToolStripMenuItem.Click += new System.EventHandler(this.sexoToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -101,6 +110,7 @@
         private System.Windows.Forms.ToolStripMenuItem raçaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipoAnimalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem endereçoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sexoToolStripMenuItem;
     }
 }
 

@@ -51,6 +51,7 @@
     <Compile Include="control\C_Cep.cs" />
     <Compile Include="control\C_Cidade.cs" />
     <Compile Include="control\C_Estado.cs" />
+    <Compile Include="control\C_Marca.cs" />
     <Compile Include="control\C_Pais.cs" />
     <Compile Include="control\C_Raca.cs" />
     <Compile Include="control\C_Rua.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="control\C_Telefone.cs" />
     <Compile Include="control\C_TipoAnimal.cs" />
     <Compile Include="control\C_TipoFuncionario.cs" />
+    <Compile Include="control\C_TipoProduto.cs" />
     <Compile Include="control\I_Metodos_Comuns.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
