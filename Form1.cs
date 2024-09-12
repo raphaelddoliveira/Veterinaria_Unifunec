@@ -37,5 +37,11 @@ namespace Veterinaria
             FrmSexo frmSexo = new FrmSexo();
             frmSexo.ShowDialog();
         }
+
+        private void bairroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmbairro frmBairro = new Frmbairro();
+            frmBairro.ShowDialog();
+        }
     }
 }
