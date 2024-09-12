@@ -58,6 +58,7 @@
             this.animalToolStripMenuItem.Name = "animalToolStripMenuItem";
             this.animalToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.animalToolStripMenuItem.Text = "Animal";
+            this.animalToolStripMenuItem.Click += new System.EventHandler(this.animalToolStripMenuItem_Click);
             // 
             // raçaToolStripMenuItem
             // 
