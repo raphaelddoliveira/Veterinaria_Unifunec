@@ -32,7 +32,6 @@
             this.animalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.raçaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoAnimalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sexoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.endereçoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bairroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -55,8 +54,7 @@
             // 
             this.animalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.raçaToolStripMenuItem,
-            this.tipoAnimalToolStripMenuItem,
-            this.sexoToolStripMenuItem});
+            this.tipoAnimalToolStripMenuItem});
             this.animalToolStripMenuItem.Name = "animalToolStripMenuItem";
             this.animalToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.animalToolStripMenuItem.Text = "Animal";
@@ -74,13 +72,6 @@
             this.tipoAnimalToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.tipoAnimalToolStripMenuItem.Text = "Tipo Animal";
             this.tipoAnimalToolStripMenuItem.Click += new System.EventHandler(this.tipoAnimalToolStripMenuItem_Click);
-            // 
-            // sexoToolStripMenuItem
-            // 
-            this.sexoToolStripMenuItem.Name = "sexoToolStripMenuItem";
-            this.sexoToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.sexoToolStripMenuItem.Text = "Sexo";
-            this.sexoToolStripMenuItem.Click += new System.EventHandler(this.sexoToolStripMenuItem_Click);
             // 
             // endereçoToolStripMenuItem
             // 
@@ -120,7 +111,6 @@
         private System.Windows.Forms.ToolStripMenuItem raçaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipoAnimalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem endereçoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sexoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bairroToolStripMenuItem;
     }
 }

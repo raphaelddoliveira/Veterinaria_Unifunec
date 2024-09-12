@@ -25,7 +25,7 @@ namespace Veterinaria.view
             //Carregar o Datagrid de Bairros.
             CarregaTabela();
 
-            lista_bairro = carregaListaBairro();
+            
 
             if (lista_bairro.Count - 1 > 0)
             {
@@ -69,6 +69,7 @@ namespace Veterinaria.view
             Tabela_bairro = dt;
             dataGridView1.DataSource = Tabela_bairro;
             lista_bairro = carregaListaBairro();
+
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

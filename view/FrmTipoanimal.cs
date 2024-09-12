@@ -25,7 +25,6 @@ namespace Veterinaria.view
             //Carregar o Datagrid de Raças.
             CarregaTabela();
 
-            lista_tipoanimal = carregaListaTipoanimal();
 
             if (lista_tipoanimal.Count - 1 > 0)
             {
