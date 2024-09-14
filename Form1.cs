@@ -44,5 +44,47 @@ namespace Veterinaria
         {
 
         }
+
+        private void cepToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCep frmcep = new FrmCep();
+            frmcep.ShowDialog();
+        }
+
+        private void ruaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmrua frmrua = new Frmrua();
+            frmrua.ShowDialog();
+        }
+
+        private void telefoneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmtelefone frmtelefone = new Frmtelefone();
+            frmtelefone.ShowDialog();
+        }
+
+        private void tipoFuncionárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTipofuncionario frmtipofun = new FrmTipofuncionario();
+            frmtipofun.ShowDialog();
+        }
+
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMarca frmmarca = new FrmMarca();
+            frmmarca.ShowDialog();
+        }
+
+        private void tipoProdutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTipoproduto frmtipopro = new FrmTipoproduto();
+            frmtipopro.ShowDialog();
+        }
+
+        private void cidAnimalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCidanimal frmcid = new FrmCidanimal();
+            frmcid.ShowDialog();
+        }
     }
 }

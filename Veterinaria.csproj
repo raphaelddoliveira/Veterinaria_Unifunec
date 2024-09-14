@@ -99,17 +99,59 @@
     <Compile Include="view\Frmbairro.Designer.cs">
       <DependentUpon>Frmbairro.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\FrmCep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmCep.Designer.cs">
+      <DependentUpon>FrmCep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FrmCidanimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmCidanimal.Designer.cs">
+      <DependentUpon>FrmCidanimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FrmMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmMarca.Designer.cs">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\FrmRaca.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\FrmRaca.Designer.cs">
       <DependentUpon>FrmRaca.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\Frmrua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frmrua.Designer.cs">
+      <DependentUpon>Frmrua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frmtelefone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frmtelefone.Designer.cs">
+      <DependentUpon>Frmtelefone.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\FrmTipoanimal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\FrmTipoanimal.Designer.cs">
       <DependentUpon>FrmTipoanimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FrmTipofuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmTipofuncionario.Designer.cs">
+      <DependentUpon>FrmTipofuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FrmTipoproduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmTipoproduto.Designer.cs">
+      <DependentUpon>FrmTipoproduto.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -127,11 +169,32 @@
     <EmbeddedResource Include="view\Frmbairro.resx">
       <DependentUpon>Frmbairro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmCep.resx">
+      <DependentUpon>FrmCep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmCidanimal.resx">
+      <DependentUpon>FrmCidanimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmMarca.resx">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\FrmRaca.resx">
       <DependentUpon>FrmRaca.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\Frmrua.resx">
+      <DependentUpon>Frmrua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frmtelefone.resx">
+      <DependentUpon>Frmtelefone.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\FrmTipoanimal.resx">
       <DependentUpon>FrmTipoanimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmTipofuncionario.resx">
+      <DependentUpon>FrmTipofuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmTipoproduto.resx">
+      <DependentUpon>FrmTipoproduto.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
