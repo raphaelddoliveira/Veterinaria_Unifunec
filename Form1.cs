@@ -86,5 +86,11 @@ namespace Veterinaria
             FrmCidanimal frmcid = new FrmCidanimal();
             frmcid.ShowDialog();
         }
+
+        private void paísToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPais frmpais = new FrmPais();
+            frmpais.ShowDialog();
+        }
     }
 }
