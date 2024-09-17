@@ -36,6 +36,7 @@ namespace Veterinaria.control
                     Tiposervico aux = new Tiposervico();
                     aux.codtiposervico = Int32.Parse(dr_tipoServico["codtiposervico"].ToString());
                     aux.nometiposervico = dr_tipoServico["nometiposervico"].ToString();
+                    aux.valortiposervico = Decimal.Parse(dr_tipoServico["valortiposervico"].ToString());
 
                     lista_tipoServico.Add(aux);
                 }
@@ -76,6 +77,7 @@ namespace Veterinaria.control
                     Tiposervico aux = new Tiposervico();
                     aux.codtiposervico = Int32.Parse(dr_tipoServico["codtiposervico"].ToString());
                     aux.nometiposervico = dr_tipoServico["nometiposervico"].ToString();
+                    aux.valortiposervico = Decimal.Parse(dr_tipoServico["valortiposervico"].ToString());
 
                     lista_tipoServico.Add(aux);
                 }
@@ -169,18 +171,20 @@ namespace Veterinaria.control
             return dt_tipoServico;
         }
 
-        String sqlInsere = "INSERT INTO tiposervico(nometiposervico) VALUES (@pnometiposervico)";
+        // Atualizando a query SQL para incluir valortiposervico
+        String sqlInsere = "INSERT INTO tiposervico(nometiposervico, valortiposervico) VALUES (@pnometiposervico, @pvalortiposervico)";
         public void Insere_Dados(Object aux)
         {
             Tiposervico tipoServico = new Tiposervico();
-            tipoServico = (Tiposervico)aux; //casting
+            tipoServico = (Tiposervico)aux; // casting
 
-            //Criando a Conexao o banco de Dados
+            // Criando a Conexao o banco de Dados
             Conexao conexao = new Conexao();
             conn = conexao.ConectarBanco();
 
             cmd = new SqlCommand(sqlInsere, conn);
             cmd.Parameters.AddWithValue("@pnometiposervico", tipoServico.nometiposervico);
+            cmd.Parameters.AddWithValue("@pvalortiposervico", tipoServico.valortiposervico); // Adicionando o valor do serviço
 
             cmd.CommandType = CommandType.Text;
             conn.Open();
@@ -203,6 +207,7 @@ namespace Veterinaria.control
             }
         }
 
+
         String sqlAtualiza = "UPDATE tiposervico SET nometiposervico = @pnometiposervico WHERE codtiposervico = @pcod";
         public void Atualizar_Dados(object aux)
         {
@@ -216,6 +221,7 @@ namespace Veterinaria.control
             cmd = new SqlCommand(sqlAtualiza, conn);
             cmd.Parameters.AddWithValue("@pcod", dados.codtiposervico);
             cmd.Parameters.AddWithValue("@pnometiposervico", dados.nometiposervico);
+            cmd.Parameters.AddWithValue("@pvalortiposervico", dados.valortiposervico);
 
             conn.Open();
 

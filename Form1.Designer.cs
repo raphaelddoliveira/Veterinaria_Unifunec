@@ -45,6 +45,7 @@
             this.tipoProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cidAnimalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paísToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tipoServiçoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,7 +156,8 @@
             // 
             this.produtoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.marcaToolStripMenuItem,
-            this.tipoProdutoToolStripMenuItem});
+            this.tipoProdutoToolStripMenuItem,
+            this.tipoServiçoToolStripMenuItem});
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
             this.produtoToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.produtoToolStripMenuItem.Text = "Produto";
@@ -187,6 +189,13 @@
             this.paísToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.paísToolStripMenuItem.Text = "País";
             this.paísToolStripMenuItem.Click += new System.EventHandler(this.paísToolStripMenuItem_Click);
+            // 
+            // tipoServiçoToolStripMenuItem
+            // 
+            this.tipoServiçoToolStripMenuItem.Name = "tipoServiçoToolStripMenuItem";
+            this.tipoServiçoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tipoServiçoToolStripMenuItem.Text = "Tipo Serviço";
+            this.tipoServiçoToolStripMenuItem.Click += new System.EventHandler(this.tipoServiçoToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -223,6 +232,7 @@
         private System.Windows.Forms.ToolStripMenuItem tipoProdutoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cidAnimalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paísToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tipoServiçoToolStripMenuItem;
     }
 }
 

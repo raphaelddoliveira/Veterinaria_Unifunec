@@ -92,5 +92,11 @@ namespace Veterinaria
             FrmPais frmpais = new FrmPais();
             frmpais.ShowDialog();
         }
+
+        private void tipoServiçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTipoServico frmtpsrv = new FrmTipoServico();
+            frmtpsrv.ShowDialog();
+        }
     }
 }

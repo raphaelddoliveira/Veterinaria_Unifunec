@@ -159,6 +159,12 @@
     <Compile Include="view\FrmTipoproduto.Designer.cs">
       <DependentUpon>FrmTipoproduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\FrmTipoServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmTipoServico.Designer.cs">
+      <DependentUpon>FrmTipoServico.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -204,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\FrmTipoproduto.resx">
       <DependentUpon>FrmTipoproduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmTipoServico.resx">
+      <DependentUpon>FrmTipoServico.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
