@@ -59,9 +59,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 107);
+            this.label3.Location = new System.Drawing.Point(21, 132);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(65, 16);
             this.label3.TabIndex = 56;
             this.label3.Text = "Bandeira:";
             // 
@@ -85,7 +86,7 @@
             this.btnBuscar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(584, 39);
+            this.toolStrip1.Size = new System.Drawing.Size(779, 39);
             this.toolStrip1.TabIndex = 55;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -193,14 +194,14 @@
             // lblBuscar
             // 
             this.lblBuscar.Name = "lblBuscar";
-            this.lblBuscar.Size = new System.Drawing.Size(42, 36);
+            this.lblBuscar.Size = new System.Drawing.Size(52, 36);
             this.lblBuscar.Text = "Buscar";
             // 
             // txtBuscar
             // 
             this.txtBuscar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(140, 39);
+            this.txtBuscar.Size = new System.Drawing.Size(185, 39);
             // 
             // btnBuscar
             // 
@@ -215,59 +216,67 @@
             // txtPais
             // 
             this.txtPais.Enabled = false;
-            this.txtPais.Location = new System.Drawing.Point(93, 68);
+            this.txtPais.Location = new System.Drawing.Point(124, 84);
+            this.txtPais.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPais.Name = "txtPais";
-            this.txtPais.Size = new System.Drawing.Size(481, 20);
+            this.txtPais.Size = new System.Drawing.Size(640, 22);
             this.txtPais.TabIndex = 54;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 75);
+            this.label2.Location = new System.Drawing.Point(21, 92);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.Size = new System.Drawing.Size(77, 16);
             this.label2.TabIndex = 53;
             this.label2.Text = "Nome País:";
             // 
             // txtCodigo
             // 
             this.txtCodigo.Enabled = false;
-            this.txtCodigo.Location = new System.Drawing.Point(57, 42);
+            this.txtCodigo.Location = new System.Drawing.Point(76, 52);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(86, 20);
+            this.txtCodigo.Size = new System.Drawing.Size(113, 22);
             this.txtCodigo.TabIndex = 52;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 49);
+            this.label1.Location = new System.Drawing.Point(21, 60);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 51;
             this.label1.Text = "Código:";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 201);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 247);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(562, 125);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(749, 154);
             this.dataGridView1.TabIndex = 50;
             // 
             // pictureBoxbandeira
             // 
-            this.pictureBoxbandeira.Location = new System.Drawing.Point(93, 94);
+            this.pictureBoxbandeira.Location = new System.Drawing.Point(124, 116);
+            this.pictureBoxbandeira.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBoxbandeira.Name = "pictureBoxbandeira";
-            this.pictureBoxbandeira.Size = new System.Drawing.Size(135, 84);
+            this.pictureBoxbandeira.Size = new System.Drawing.Size(180, 103);
             this.pictureBoxbandeira.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxbandeira.TabIndex = 58;
             this.pictureBoxbandeira.TabStop = false;
             // 
             // btncarregarimagem
             // 
-            this.btncarregarimagem.Location = new System.Drawing.Point(234, 97);
+            this.btncarregarimagem.Location = new System.Drawing.Point(312, 119);
+            this.btncarregarimagem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncarregarimagem.Name = "btncarregarimagem";
-            this.btncarregarimagem.Size = new System.Drawing.Size(86, 23);
+            this.btncarregarimagem.Size = new System.Drawing.Size(115, 28);
             this.btncarregarimagem.TabIndex = 59;
             this.btncarregarimagem.Text = "Inserir Imagem";
             this.btncarregarimagem.UseVisualStyleBackColor = true;
@@ -275,9 +284,9 @@
             // 
             // FrmPais
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 355);
+            this.ClientSize = new System.Drawing.Size(779, 437);
             this.Controls.Add(this.btncarregarimagem);
             this.Controls.Add(this.pictureBoxbandeira);
             this.Controls.Add(this.label3);
@@ -287,6 +296,7 @@
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmPais";
             this.Text = "FrmPais";
             this.toolStrip1.ResumeLayout(false);

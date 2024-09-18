@@ -55,9 +55,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 109);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 134);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(562, 223);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(749, 274);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -65,35 +67,39 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 55);
+            this.label1.Location = new System.Drawing.Point(21, 68);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Código:";
             // 
             // txtCodigo
             // 
             this.txtCodigo.Enabled = false;
-            this.txtCodigo.Location = new System.Drawing.Point(57, 48);
+            this.txtCodigo.Location = new System.Drawing.Point(76, 59);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(86, 20);
+            this.txtCodigo.Size = new System.Drawing.Size(113, 22);
             this.txtCodigo.TabIndex = 2;
             // 
             // txtRaca
             // 
             this.txtRaca.Enabled = false;
-            this.txtRaca.Location = new System.Drawing.Point(57, 74);
+            this.txtRaca.Location = new System.Drawing.Point(76, 91);
+            this.txtRaca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRaca.Name = "txtRaca";
-            this.txtRaca.Size = new System.Drawing.Size(517, 20);
+            this.txtRaca.Size = new System.Drawing.Size(688, 22);
             this.txtRaca.TabIndex = 4;
             this.txtRaca.TextChanged += new System.EventHandler(this.txtRaca_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 81);
+            this.label2.Location = new System.Drawing.Point(21, 100);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.Size = new System.Drawing.Size(43, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Raça:";
             // 
@@ -117,7 +123,7 @@
             this.btnBuscar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(650, 39);
+            this.toolStrip1.Size = new System.Drawing.Size(867, 39);
             this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -128,7 +134,7 @@
             this.btnNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(36, 36);
-            this.btnNovo.Text = "toolStripButton1";
+            this.btnNovo.Text = "Novo";
             this.btnNovo.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // btnSalvar
@@ -139,7 +145,7 @@
             this.btnSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(36, 36);
-            this.btnSalvar.Text = "toolStripButton2";
+            this.btnSalvar.Text = "Salvar";
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnCancelar
@@ -150,7 +156,7 @@
             this.btnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(36, 36);
-            this.btnCancelar.Text = "toolStripButton3";
+            this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnApagar
@@ -160,7 +166,7 @@
             this.btnApagar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnApagar.Name = "btnApagar";
             this.btnApagar.Size = new System.Drawing.Size(36, 36);
-            this.btnApagar.Text = "toolStripButton4";
+            this.btnApagar.Text = "Apagar";
             this.btnApagar.Click += new System.EventHandler(this.btnApagar_Click);
             // 
             // btnEditar
@@ -170,7 +176,7 @@
             this.btnEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(36, 36);
-            this.btnEditar.Text = "toolStripButton5";
+            this.btnEditar.Text = "Editar";
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // toolStripSeparator1
@@ -185,7 +191,7 @@
             this.btnPrimeiro.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPrimeiro.Name = "btnPrimeiro";
             this.btnPrimeiro.Size = new System.Drawing.Size(36, 36);
-            this.btnPrimeiro.Text = "toolStripButton1";
+            this.btnPrimeiro.Text = "Primeiro";
             this.btnPrimeiro.Click += new System.EventHandler(this.btnPrimeiro_Click);
             // 
             // btnAnterior
@@ -195,7 +201,7 @@
             this.btnAnterior.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAnterior.Name = "btnAnterior";
             this.btnAnterior.Size = new System.Drawing.Size(36, 36);
-            this.btnAnterior.Text = "toolStripButton2";
+            this.btnAnterior.Text = "Anterior";
             this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
             // 
             // btnProximo
@@ -205,7 +211,7 @@
             this.btnProximo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnProximo.Name = "btnProximo";
             this.btnProximo.Size = new System.Drawing.Size(36, 36);
-            this.btnProximo.Text = "toolStripButton3";
+            this.btnProximo.Text = "Próximo";
             this.btnProximo.Click += new System.EventHandler(this.btnProximo_Click);
             // 
             // btnUltimo
@@ -215,7 +221,7 @@
             this.btnUltimo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnUltimo.Name = "btnUltimo";
             this.btnUltimo.Size = new System.Drawing.Size(36, 36);
-            this.btnUltimo.Text = "toolStripButton4";
+            this.btnUltimo.Text = "Último";
             this.btnUltimo.Click += new System.EventHandler(this.btnUltimo_Click);
             // 
             // toolStripSeparator2
@@ -226,14 +232,14 @@
             // lblBuscar
             // 
             this.lblBuscar.Name = "lblBuscar";
-            this.lblBuscar.Size = new System.Drawing.Size(42, 36);
+            this.lblBuscar.Size = new System.Drawing.Size(52, 36);
             this.lblBuscar.Text = "Buscar";
             // 
             // txtBuscar
             // 
             this.txtBuscar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(140, 39);
+            this.txtBuscar.Size = new System.Drawing.Size(185, 39);
             this.txtBuscar.Click += new System.EventHandler(this.txtBuscar_Click);
             // 
             // btnBuscar
@@ -243,20 +249,21 @@
             this.btnBuscar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(36, 36);
-            this.btnBuscar.Text = "toolStripButton1";
+            this.btnBuscar.Text = "Buscar";
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // FrmRaca
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 353);
+            this.ClientSize = new System.Drawing.Size(867, 434);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.txtRaca);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmRaca";
             this.Text = "FrmRaca";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
