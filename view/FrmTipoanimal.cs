@@ -263,5 +263,24 @@ namespace Veterinaria.view
         {
 
         }
+
+        private void btnBuscar_Click_1(object sender, EventArgs e)
+        {
+            C_TipoAnimal cr = new C_TipoAnimal();
+            DataTable dt = new DataTable();
+            dt = cr.Buscar_Filtro(txtBuscar.Text.ToString() + "%");
+            Tabela_tipoanimal = dt;
+
+            dataGridView1.DataSource = Tabela_tipoanimal;
+            lista_tipoanimal = carregaListaTipoanimalFiltro();
+
+            if (lista_tipoanimal.Count > 0)
+            {
+                posicao = 0;
+                atualizaCampos();
+                dataGridView1.Rows[posicao].Selected = true;
+                lista_tipoanimal = carregaListaTipoanimal();
+            }
+        }
     }
 }

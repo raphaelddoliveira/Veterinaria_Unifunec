@@ -244,5 +244,24 @@ namespace Veterinaria.view
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
         }
+
+        private void btnBuscar_Click_1(object sender, EventArgs e)
+        {
+            C_Bairro cr = new C_Bairro();
+            DataTable dt = new DataTable();
+            dt = cr.Buscar_Filtro(txtBuscar.Text.ToString() + "%");
+            Tabela_bairro = dt;
+
+            dataGridView1.DataSource = Tabela_bairro;
+            lista_bairro = carregaListaBairroFiltro();
+
+            if (lista_bairro.Count > 0)
+            {
+                posicao = 0;
+                atualizaCampos();
+                dataGridView1.Rows[posicao].Selected = true;
+                lista_bairro = carregaListaBairro();
+            }
+        }
     }
 }
